@@ -8,8 +8,8 @@ body {
 }
 
 #TriviaGameTitle {
-    padding: 1.5rem;
-    margin:3rem;
+    padding: 1.5%;
+    margin: 3%;
     background-image: url("../images/background-header-pic.jpg");
     text-align: center;
     margin-left: 30%;
@@ -21,11 +21,19 @@ body {
     color: darkred;
 }
 
+#timerArea {
+    margin-top: -2%;
+    margin-bottom: 2.5%;
+    margin-left: 45%;
+    margin-right: 45%;
+    background: white;
+}
+
 #container {
     clear: both;
     background: rgba(4, 98, 192, 0.712);
     padding: 5%;
-    margin: 1.5%;
+    margin: 5%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: -2%;
@@ -35,7 +43,9 @@ body {
     display:flex;
     position: relative;
 }
-
-.btn btn-dark {
-    margin-left: 15%;
+#activeAnswers > div {
+    padding: .75rem;
+}
+#activeAnswers > div:hover {
+    background: pink;
 }
