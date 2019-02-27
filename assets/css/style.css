@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/disney-background.jpg");
+    height: auto;
+    position: relative;
+    z-index: 1;
+    color:rgb(20, 18, 18);font-family: 'Coiny', cursive;
+    font-size: auto;
+}
+
+#TriviaGameTitle {
+    padding: 1.5rem;
+    margin:3rem;
+    background-image: url("../images/background-header-pic.jpg");
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 2.5rem;
+    height: auto;
+    width: auto;
+    color: darkred;
+}
+
+#container {
+    clear: both;
+    background: rgba(4, 98, 192, 0.712);
+    padding: 5%;
+    margin: 1.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -2%;
+    height: auto;
+    width: auto;
+    box-align: center;
+    display:flex;
+    position: relative;
+}
+
+.btn btn-dark {
+    margin-left: 15%;
+}
